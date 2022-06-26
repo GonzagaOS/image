@@ -1,5 +1,5 @@
 FROM ubuntu:focal
-LABEL maintainer "Kry9toN <dhimasbagusprayoga@gmail.com>"
+LABEL maintainer "Rayhan77 <raihanadhienugroho@gmail.com>"
 
 # Indonesian timezone (GMT+7)	
 ENV TZ=Asia/Jakarta
@@ -24,5 +24,5 @@ RUN apt-get update -qq && \
 RUN curl --create-dirs -L -o /usr/local/bin/repo -O -L https://storage.googleapis.com/git-repo-downloads/repo
 RUN chmod a+rx /usr/local/bin/repo
 
-RUN mkdir /root/komodo
-RUN mkdir /root/komodo-dev
+RUN mkdir /root/gonzaga
+RUN mkdir /root/gonzaga-dev
